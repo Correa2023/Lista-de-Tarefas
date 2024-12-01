@@ -1,0 +1,94 @@
+body {
+    background-image: url("/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Nunito", sans-serif;
+}
+
+header,
+main {
+    margin: 32px auto;
+    padding: 32px 64px;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: max-content
+}
+
+header>h1 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+header input {
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #489CC1;
+    padding: 8px 0px;
+    width: 400px;
+    text-align: center;
+    font-size: 24px;
+}
+
+header input:focus {
+    border-color: #FCEB4A;
+
+}
+
+header button {
+    font-size: 24px;
+    padding: 8px 16px;
+    background-color: #489CC1;
+    border: 2px outset #489CC1;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+header button:active {
+    filter: brightness(1.1S);
+    border-style: inset;
+}
+
+header button:hover {
+    filter: brightness(0.9);
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 458px;
+}
+
+li>div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+li button {
+    background: none;
+    border: none;
+    font-size: 22px;
+}
+
+li p {
+    font-size: 22px;
+}
+
+li input[type="checkbox"] {
+    height: 18px;
+    width: 18px;
+}
+
+li input[type="text"] {
+    appearance: none;
+    font-size: 22px;
+    padding: 4px 16px;
+}
+
+li input[type="text"]:disabled {
+    border: none;
+    background: none;
+}
